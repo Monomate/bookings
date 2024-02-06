@@ -34,8 +34,8 @@ export default {
 
 Create docker image
 
-`docker build -t etnias .`
+`docker build -t [image_name] .`
 
 Run docker container
 
-`docker run -p 3000:3000 -d etnias`
+`docker run -p 3000:3000 -d [container_name]`
